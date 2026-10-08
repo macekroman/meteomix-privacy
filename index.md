@@ -13,7 +13,8 @@ Kontakt: meteomix.app@gmail.com
 
 ## Stručně
 
-MeteoMIX nemá uživatelské účty, reklamy, analytiku ani sledování. Provozovatel
+MeteoMIX nemá uživatelské účty, reklamy ani sledování a provozovatel
+nepoužívá žádnou analytiku. Provozovatel
 nemá žádný vlastní server: žádná vaše data k němu neputují a nic
 o vás neuchovává. Aby aplikace mohla ukázat počasí pro dané místo, posílá jeho
 souřadnice veřejným meteorologickým službám uvedeným níže.
@@ -57,7 +58,11 @@ aplikace v požadavku.
   šifrované zálohy vašeho účtu Google.
 - **Překlad** textů ČHMÚ do angličtiny probíhá v zařízení (Google ML Kit).
   Jazykový model se jednorázově stáhne od Googlu, překládaný text zařízení
-  neopouští.
+  neopouští. Překládá se jen tehdy, když aplikace neběží česky; knihovna ML Kit
+  přitom posílá Googlu diagnostické údaje: výrobce a model zařízení, verzi
+  Androidu a aplikace, identifikátor instalace, dobu a výsledek překladu
+  a zvolenou dvojici jazyků. Google je používá k diagnostice a statistice
+  používání ([zásady Googlu](https://policies.google.com/privacy)).
 - **Upozornění** se vytvářejí přímo v zařízení.
 
 ## Kontakt z aplikace
@@ -98,7 +103,8 @@ Contact: meteomix.app@gmail.com
 
 ## In short
 
-MeteoMIX has no user accounts, ads, analytics or tracking. The provider runs no
+MeteoMIX has no user accounts, ads or tracking, and the provider uses no
+analytics. The provider runs no
 server of their own: none of your data reaches them, and they keep nothing
 about you. To show the weather for a place, the app sends that place's
 coordinates to the public weather services listed below.
@@ -143,7 +149,12 @@ app's name in the request.
   account's encrypted backup.
 - **Translation** of ČHMÚ's texts into English happens on the device (Google
   ML Kit). The language model is downloaded from Google once; the text being
-  translated never leaves the device.
+  translated never leaves the device. Translation runs only when the app is
+  not in Czech; while it does, ML Kit sends Google diagnostic data: device
+  manufacturer and model, Android and app version, an installation
+  identifier, how long translation took and whether it succeeded, and the
+  language pair. Google uses it for diagnostics and usage statistics
+  ([Google's privacy policy](https://policies.google.com/privacy)).
 - **Notifications** are created on the device.
 
 ## Contacting the developer
