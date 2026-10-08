@@ -7,9 +7,9 @@ lang: cs
 
 *English version below.*
 
-Platné od: 8. 10. 2026
-Provozovatel aplikace: Roman Macek
-Kontakt: meteomix.app@gmail.com
+- Platné od: 8. 10. 2026
+- Provozovatel aplikace: Roman Macek
+- Kontakt: meteomix.app@gmail.com
 
 ## Stručně
 
@@ -97,9 +97,9 @@ platnosti. S dotazy se obracejte na meteomix.app@gmail.com.
 
 # Privacy Policy – MeteoMIX
 
-Effective from: 8 October 2026
-App provider: Roman Macek
-Contact: meteomix.app@gmail.com
+- Effective from: 8 October 2026
+- App provider: Roman Macek
+- Contact: meteomix.app@gmail.com
 
 ## In short
 
