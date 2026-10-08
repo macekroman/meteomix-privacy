@@ -1,9 +1,9 @@
 ---
-title: Zásady ochrany osobních údajů – Počasí
+title: Zásady ochrany osobních údajů – MeteoMIX
 lang: cs
 ---
 
-# Zásady ochrany osobních údajů – Počasí
+# Zásady ochrany osobních údajů – MeteoMIX
 
 *English version below.*
 
@@ -13,7 +13,7 @@ Kontakt: meteomix.app@gmail.com
 
 ## Stručně
 
-Počasí nemá uživatelské účty, reklamy, analytiku ani sledování. Provozovatel
+MeteoMIX nemá uživatelské účty, reklamy, analytiku ani sledování. Provozovatel
 nemá žádný vlastní server: žádná vaše data k němu neputují a nic
 o vás neuchovává. Aby aplikace mohla ukázat počasí pro dané místo, posílá jeho
 souřadnice veřejným meteorologickým službám uvedeným níže.
@@ -90,7 +90,7 @@ platnosti. S dotazy se obracejte na meteomix.app@gmail.com.
 
 ---
 
-# Privacy Policy – Počasí
+# Privacy Policy – MeteoMIX
 
 Effective from: 8 October 2026
 App provider: Roman Macek
@@ -98,7 +98,7 @@ Contact: meteomix.app@gmail.com
 
 ## In short
 
-Počasí has no user accounts, ads, analytics or tracking. The provider runs no
+MeteoMIX has no user accounts, ads, analytics or tracking. The provider runs no
 server of their own: none of your data reaches them, and they keep nothing
 about you. To show the weather for a place, the app sends that place's
 coordinates to the public weather services listed below.
